@@ -12,3 +12,4 @@ layout = go.Layout(title='Corona Virus Confirmed Cases From 2020-01-22 to 2020-0
 
 fig = go.Figure(data=data, layout=layout)
 pyo.plot(fig, filename='linechart.html')
+
